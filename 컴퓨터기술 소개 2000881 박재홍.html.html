@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- <header>, <nav>, <section>, <crticle>, <footer> 등 시맨틱 태그를 사용하여 구조화한 웹 페이지 만들기
+        폼 태그를 활용해서 설문조사 웹 페이지 survey3.html을 작성하고, 3.html의 하단에서 '설문조사' 링크를 만들어서 연결하기
+    survet3.html도 시맨틱 태그를 사용해서 만들 것-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컴퓨터 기술 소개</title>
+    <h1 class="web_name">스마트폰</h1>
+    <p>스마트폰은 컴퓨터를 결합한 무선 휴대전화기이다.<br>
+    PC에서 실행되는 운영체제보다 작게 만든 모바일 운영체제를 탑제하여 인터넷 검색, 전자우편, 간단한 문서 편집, 카메라, 오디오 및 비디오 재생 등 PC의 기능을 거의 모두 갖추고 있다.<br></p>
+
+    <br>
+    DJ-Okawari-Flower-Dance play by violin<br>
+    <audio controls autoplay>
+        <source src="https://www.dropbox.com/scl/fi/7gjadhdmns3rzmhmzze8l/DJ-Okawari-Flower-Dance.mp3?rlkey=hzpctpi4bbhq5zdr63riyyekg&dl=1" type="audio/mpeg">
+    </audio>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Myeongjo&family=Nanum+Pen+Script&display=swap');
+        .web_name{color: brown; text-align: center;}
+        .web_head_introduce{font-family: fantasy;}
+        hr{border: 1px solid black;}
+        body{background-color: aliceblue;}
+        a{text-decoration: none;} /*링크의 기본 텍스트에 대한 밑줄을 제거*/
+        p{font-family: 'Nanum Pen Script', sans-serif; font-size: 1.5em; text-indent: 1em;}
+        h3{color: blue; text-shadow: 3px 3px 8px;}
+
+        footer{font-family: 'Nanum Pen Script', sans-serif; font-size: 1.5em; text-indent: 1em;
+            background-color: orange; border-radius:50px; padding:10px;}
+    </style>
+    
+    <hr>
+</head>
+
+<body>
+    <nav id="top_list">
+        <h3>목차</h3>
+        <ul style=" border: 3px dotted blue; padding: 20px;">
+            <li><a href="#history">역사</a></li>
+            <li><a href="#android phone">안드로이드 폰</a></li>
+            <li><a href="#android phone history">안드로이드 폰의 역사</a></li>
+            <li><a href="#Iphone">아이폰</a></li>
+            <li><a href="#Iphone history">아이폰의 역사</a></li>
+            <li><a href="#sample">샘플</a></li>
+        </ul>
+    </nav><br>
+    
+    <section>
+        <article id="history">
+            <a href="#top_list"><h3>역사</h3></a>
+            <p>최초의 스마트폰은 사이먼(Symon)으로 추정된다<br>
+            IDM사가 1992년에 설계하여 그 해에 미국 네바다 주의 라스베이거스에서 열린 컴덱스에서 컨셉 제품으로 전시되었다.</p>
+        </article>
+
+        <article id="android phone">
+            <a href="#top_list"><h3>안드로이드 폰</h3></a>
+            <pre><p>
+            안드로이드(영어: Android)는 스마트폰, 태블릿 PC 같은 터치스크린 모바일 장치 용으로 디자인된 운영 체제이자 수정된 리눅스 커널 버전을 비롯한 오픈 소스 소프트웨어에 기반을 둔 모바일 운영 체제다. 
+            또한, 운영 체제와 미들웨어, 사용자 인터페이스 그리고 표준 응용 프로그램(웹 브라우저, 이메일 클라이언트, 단문 메시지 서비스(SMS), 멀티미디어 메시지 서비스(MMS)) 등을 포함하고 있는 소프트웨어 스택이자 모바일 운영 체제이다. 
+            안드로이드는 개발자들이 자바와 코틀린 언어로 응용 프로그램을 작성할 수 있게 하였으며, 컴파일된 바이트코드를 구동할 수 있는 런타임 라이브러리를 제공한다.
+            또한 안드로이드 소프트웨어 개발 키트(SDK)를 통해 응용 프로그램을 개발하는 데 필요한 각종 도구와 응용 프로그램 인터페이스(API)를 제공한다.
+            
+            안드로이드는 리눅스 커널 위에서 동작하며, 자바와 코틀린으로 앱을 만들어 동작한다. 
+            또한 다양한 안드로이드 시스템 구성 요소에서 사용되는 C/C++ 라이브러리들을 포함하고 있다. 
+            안드로이드는 기존의 자바 가상 머신과는 다른 가상 머신인 안드로이드 런타임을 통해 자바와 코틀린으로 작성된 응용 프로그램을 별도의 프로세스(zygote 또는 zygote64)에서 실행하는 구조로 되어 있다.
+            2005년에 안드로이드 사를 구글에서 인수한 후 2007년 11월에 안드로이드 플랫폼을 휴대용 장치 운영체제로서 무료 공개한다고 발표한 후 48개의 하드웨어, 소프트웨어, 통신 회사가 모여 만든 오픈 핸드셋 얼라이언스(Open Handset Aliance, OHA)에서 공개 표준을 위해 개발하고 있다. 
+            구글은 안드로이드의 모든 소스 코드를 오픈 소스 라이선스인 아파치 v2 라이선스로 배포하고 있어 기업이나 사용자는 각자 안드로이드 프로그램을 독자적으로 개발을 해서 탑재할 수 있다. 
+            또한 등록한 개발자들이 소비자에게 응용 프로그램을 판매할 수 있는 구글 플레이를 제공하고 있으며, 이와 별도로 각 제조사 혹은 통신사별 응용 프로그램 마켓이 함께 운영되고 있다.
+            </pre></p>
+
+        <article id="android phone history">
+            <a href="#top_list"><h3>안드로이드 폰의 역사</h3></a>
+            <pre><p>
+            2005년 7월에 구글은 미국 캘리포니아주의 팔로알토에 위치한 작은 안드로이드사를 인수하였다. 안드로이드사는 앤디 루빈이 세운 업체이다.
+            2007년 11월 5일에 텍사스 인스트루먼트, 브로드컴 코퍼레이션, 구글, HTC, 인텔, LG전자, 마벨 테크놀로지 그룹, 모토로라, 엔비디아, 퀄컴, 삼성전자, 스프린트 넥스텔, T-모바일의 몇몇 회사로 구성된 컨소시엄인 오픈 핸드셋 얼라이언스(OHA)가 모바일 기기의 공개 표준을 개발하는 것을 목표로 결성되었다. 
+            또한 OHA는 리눅스 커널 2.6에서 빌드된 그들의 첫 번째 모바일 기기 플랫폼 결과물인 안드로이드를 발표하였다.
+            2008년 10월 21일에 안드로이드가 오픈 소스로 선언되었다. 
+            구글은 네트워크와 텔레폰 스택을 포함하는 완전한 소스 코드를 아파치 라이선스로 공개하였다.                    
+            2008년 12월 9일에 ARM 홀딩스, 아세로스(Atheros Communications), 에이수스, 가르민, 소프트뱅크, 소니 에릭슨, 도시바, 보다폰으로 구성된 새로운 14개의 멤버가 안드로이드 프로젝트에 참여하였다.
+            2014년 10월 16일 안드로이드 5.0 버전 발표와 함께 기존의 달빅 가상 머신을 안드로이드 런타임으로 대체하였다.
+            </pre></p>
+
+        <article id="Iphone">
+            <a href="#top_list"><h3>아이폰</h3></a>
+            <pre><p>
+            아이폰(영어: iPhone)은 미국의 기업 애플이 디자인하고 마케팅한 터치스크린 기반 휴대 전화 계열이다. 
+            애플의 iOS 모바일 운영 체제를 사용한다. 
+            1세대 아이폰은 애플의 공동 창립자 스티브 잡스가 2007년 1월 9일 발표하였고 2007년 6월 29일 처음으로 출시되었다.
+            그 뒤로 애플은 해마다 새로운 아이폰 모델과 iOS 업데이트를 출시해왔다. 2018년 11월 1일 기준으로, 22억대 이상의 아이폰이 판매되었다.
+            </p></pre>
+            
+
+        <article id="Iphone history">
+            <a href="#top_list"><h3>아이폰의 역사</h3></a>
+            <pre><p>
+            1세대 아이폰은 모바일 전화 산업 면에서 "혁명적인"(revolutionary), "게임 체인저"(game changer)라는 용어로 기술되었으며 차기 모델들 또한 찬사를 받았다. 
+            아이폰은 휴대전화와 슬레이트 폼 팩터를 보급하는데 주된 기여를 하였으며 모바일 앱과 앱 경제를 위한 커다란 시장을 창출하였다.         
+            2017년 1월 기준으로, 애플의 앱 스토어에는 아이폰을 대상으로 2,200,000개 이상의 애플리케이션이 포함되었다.            
+            아이폰의 자사 운영체제인 iOS는 구글의 안드로이드와 함께 세계 최대의 모바일 운영 체제(OS) 플랫폼이다.
+            </p></pre>
+            <hr>
+
+        <article id="sample">
+            <a href="#top_list"><h3>샘플</h3></a>
+            <div style="display: flex; justify-content: center;">
+            <p>스마트폰 샘플:<br>
+            (이미지에 커서를 올리면 출시일과 세부 설명이 보입니다.)</p><br>
+            </div>
+            <div style="display: flex;">
+            <figure style="margin-right: 30px;">
+                <img src="https://www.mobile-review.com/review/image/samsung/i300/b2ci300.jpg" alt="최초 갤럭시 모델" style="width: px; height: 200px;" title="2001. 12. 10 출시된 최초 갤럭시 모델">
+                <figcaption>SPH-I300</figcaption></figure>
+            <figure style="margin-right: 30px;">
+                <img src="https://img.danawa.com/prod_img/500000/797/865/img/32865797_1.jpg?_v=20240118151203" alt="최신 플래그 쉽 갤럭시 모델" style="width: px; height: 200px;" title="2024. 1. 30 출시된 최신 플래그 쉽 갤럭시 모델">
+                <figcaption>S24 Ultra</figcaption></figure>
+            <figure style="margin-right: 30px;">
+                <img src="https://t1.daumcdn.net/cfile/tistory/265EA54C595315AB24" alt="최초 아이폰 모델" style="width: px; height: 200px;" title="2007. 1. 9 출시된 최초 아이폰 1세대">
+                <figcaption>iPhone1</figcaption></figure>
+            <figure>
+                <img src="https://img.danawa.com/prod_img/500000/787/246/img/28246787_2.jpg?_v=20231006021549" alt="최초 아이폰 모델" style="width: px; height: 200px;" title="2023. 10. 13 최신 15세대 아이폰">
+                <figcaption>iPhone 15 Pro</figcaption></figure>
+                </div>
+        </article><hr>
+    </section>
+    <footer>
+        <a href="https://linkofpk.github.io/04_MiniWebProject_consol/" target="_blank">설문조사</a><br>
+        Copyright 2022 by 2000881 Park Jae Hong
+    </footer>
+
+ 
+    
+</body>
+</html>
